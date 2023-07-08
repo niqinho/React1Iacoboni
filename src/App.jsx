@@ -1,12 +1,12 @@
-import './App.css'
-
+import ItemListContainer from "./Componentes/NavBar/ItemListContainer/ItemListContainer"
+import Navbar from "./Componentes/NavBar/navbar"
 function App() {
   return (
     <>
-<h1>Primer App XD </h1>
+<Navbar />
+<ItemListContainer greeting = "Tengo que comodar el carrito xd" />
     </>
   )
 }
 
 export default App
-  
